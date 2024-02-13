@@ -1,0 +1,93 @@
+/*common css and reset code*/
+
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    
+    /* font-family: 'Bree Serif', serif; */
+
+}
+
+#hero-section{
+
+    background-image: url('images/element\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.hr-style{
+    border: 2px solid black;
+    width: 100px;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+.hr-style1{
+
+    border: 2px solid black;
+    width: 100px;
+    opacity: 1;
+
+}
+
+.service-img{
+
+    width: 100px;
+    object-fit: contain;
+    height: 30%;
+
+}
+
+.card{
+    border: none;
+}
+
+.service-card{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.187), -5px -5px 10px rgba(128, 128, 128, 0.187)
+}
+
+#service-section{
+    background-image: url('images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+
+
+
+.card-footer{
+    border: none;
+    background-color: transparent;
+}
+
+#blog  .container{
+
+    background-image: url('images/element\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-color: black; */
+
+}
+
+#blog h5{
+    font-weight: bold;
+}
+
+
+
+#footer{
+
+    background-image: url('images/element.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #65BCF3;
+    
+}
+
+footer h4{
+
+    font-weight: bold;
+}
